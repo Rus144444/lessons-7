@@ -65,7 +65,7 @@ body{
     font-size: 18px;
 }
 
-[class*="-contener"]{
+[class*="-container"]{
     max-width: 1230px;
     margin: 0 auto;
 }
@@ -81,7 +81,7 @@ h1{
     text-align: center;
 }
 
-.img-contener{
+.img-container{
     max-width: 100%;
     text-align: center;
     margin-bottom: 60px;
@@ -110,7 +110,7 @@ h1{
     margin-bottom: 45px;
     color: black;
 
-    background: url('../img/braces.svg') 0 0 no-repeat;
+    background: url('../img/braces.svg') 0 0 / 30px no-repeat;
     padding-left: 50px;
 } 
 
@@ -123,7 +123,7 @@ h1{
     padding-left: 35px;
     line-height: 150%;
 
-    background: url('../img/check.svg') 0 6px no-repeat;
+    background: url('../img/check.svg') 0 6px / 20px no-repeat;
 }
 
 /* ----home work----- */
@@ -139,7 +139,7 @@ h1{
     }
 
  .block-1{
-    background: url("../img/h1.jpg") 0 0;
+    background: url("../img/h1.jpg") 0 0 / 40px repeat;
     border-radius: 25px;
     padding: 30px;
     max-width: 800px;
@@ -148,7 +148,7 @@ h1{
     border: 2px solid black;
 }
 
-    .block-2{
+.block-2{
     background: url("../img/bg.jpg") 0 0 no-repeat;
     border-radius: 25px;
     padding: 30px;
@@ -212,4 +212,3 @@ h1{
         height: 800px;
         margin-bottom: 60px;
         border: 2px solid black;
-}   
